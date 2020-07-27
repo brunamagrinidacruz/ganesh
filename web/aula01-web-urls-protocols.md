@@ -166,7 +166,7 @@ A GET method can send informations to the server, but it is sended in the URL (U
 ![POST Method1](./aula01/post-method1.png)  
 ![POST Method2](./aula01/post-method2.png)  
 ![POST Method3](./aula01/post-method3.png)  
-Here are the query string parameters. There parameters are in the URL (http://www.quadrix.org.br/atendimento.aspx?mode=ok&pageId=62)
+Here are the query string parameters. There parameters are in the URL (http://www.quadrix.org.br/atendimento.aspx?mode=ok&pageId=62)  
 ![POST Method4](./aula01/post-method4.png)    
 And here is the body of the request. I send a POST using the attendance page, so has some fields about me and my message.
 ![POST Method5](./aula01/post-method5.png)  
