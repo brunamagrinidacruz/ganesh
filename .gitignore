@@ -1,0 +1,19 @@
+# Excluindo todos os arquivos
+/**
+# Incluindo .gitignore
+!/.gitignore
+
+# Redes
+# Incluindo apenas arquivos de aula
+!/redes/
+/redes/**
+!/redes/aula*
+!/redes/aula*/*
+
+# Web
+# Incluindo apenas arquivos de aula
+!/web/
+/web/**
+!/web/aula*
+!/web/aula*/*
+
