@@ -28,7 +28,7 @@ To do a request to a webserver, you need to use URL.
 ## Flow of request and response
 In HTTP/1.0,  each request would generete a three-way hand-shake
 
-![HTTP1 Request](./aula01/http1-request1.png)
+![HTTP1 Request](./aula01/http1-request1.png)  
 ![HTTP1 Request](./aula01/http1-request2.png)
 
 That took a long time, and because that, in HTML/1.1, a connection can keep-alive to avoid more three-way handshake.
@@ -125,7 +125,7 @@ Essentially there is:
 
 There are others headers that can be sended by client or server. And to each request, there are its headers, this because the protocol is TCP and it says that each request is somethind individual and the browser knows that and works with the response this way. Here is an example of our website used in the package capture. There is the response headers and the request headers. 
 
-![Response header](./aula01/response-header.png)
+![Response header](./aula01/response-header.png)  
 ![Request header](./aula01/request-header.png)
 
 This header can have a lot of information, like:
@@ -163,11 +163,11 @@ The methods are conventions established by the protocol that defines the type of
 A GET method can send informations to the server, but it is sended in the URL (URL params).
 
 - POST: This method is used when you want to send content to the server. A example is when you do a login, you need to send to the server your username and password to authentication (this example I did in Chrome because Firefox wasn't showing the body).
-![POST Method1](./aula01/post-method1.png)
-![POST Method2](./aula01/post-method2.png)
-![POST Method3](./aula01/post-method3.png)
+![POST Method1](./aula01/post-method1.png)  
+![POST Method2](./aula01/post-method2.png)  
+![POST Method3](./aula01/post-method3.png)  
 Here are the query string parameters. There parameters are in the URL (http://www.quadrix.org.br/atendimento.aspx?mode=ok&pageId=62)
-![POST Method4](./aula01/post-method4.png)  
+![POST Method4](./aula01/post-method4.png)    
 And here is the body of the request. I send a POST using the attendance page, so has some fields about me and my message.
 ![POST Method5](./aula01/post-method5.png)  
 field_name, field_cpf, field_email, field_contest and field_message are the text in the inputs.
@@ -202,8 +202,8 @@ After starting intercepting and access the website (http://www.quadrix.org.br/),
 
 But we can also intercept responses from the server. To do this, after you intercept a request, ```Action -> Do intercept response``` and when ```Forward```, the response will be intercept.
 
-![Burp Suite Response 1](./aula01/burpsuite-response1.png)
-![Burp Suite Response 2](./aula01/burpsuite-response2.png)
+![Burp Suite Response 1](./aula01/burpsuite-response1.png)  
+![Burp Suite Response 2](./aula01/burpsuite-response2.png)  
 
 Because that a lot of response must be made, it will be intercept multiple responses.
 
