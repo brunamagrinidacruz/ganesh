@@ -16,3 +16,6 @@ SELECT * FROM users WHERE name = '' 1 = 1 --';
 Assim, ele iria recuperar todos os usuários do banco de dados.
 
 > https://gitbook.ganeshicmc.com/web/semana-2/sql_injection
+
+# Falhas de seguranças
+Podemos ver as top 10 falhas de segurança em https://owasp.org/www-project-top-ten/
